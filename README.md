@@ -44,18 +44,15 @@ Welcome ! Follow the steps below to win the IBM raffle at SVCC 2018. You `DO NOT
 
 3. Paste your `translator API key` in the .env tab. 
 
-  ![IBM Sign up](assets/tjbot-translator-key.jpg)
+![IBM Sign up](assets/tjbot-translator-key.jpg)
 4. Click on the `Docs` tab.
 
-  ![IBM Sign up](assets/tjbot-2-translate-docs.jpg)
+![IBM Sign up](assets/tjbot-2-translate-docs.jpg)
 5. Look for the `translate` section. Either copy paste the code or simply click on the code to copy in the editor.
 
-  ![IBM Sign up](assets/tjbot-3-translate-insert.jpg)
+![IBM Sign up](assets/tjbot-3-translate-insert.jpg)
 6. Remove the username and password from the language_translator object. Uncomment the iam_apikey attribute and add `process.env.LANGUAGE_TRANSLATOR_USERNAME`. This is what the final code should look like:
-
-  ```
-  var tj = new TJBot(["led"], {}, {});
-  tj.shine("green");
+>>>>>>> a359b0a28b6890e247772c325182964c3ecbee3d
 
 
 
@@ -68,7 +65,7 @@ Welcome ! Follow the steps below to win the IBM raffle at SVCC 2018. You `DO NOT
   tj.translate("Hello", "en", "fr")
     .then((response) => console.log(response.translations[0].translation));
   ```
-
+  
 7. You can change `console.log(...)` to `alert(...)`.
   ![IBM Sign up](assets/tjbot-4-final.jpg)
 
