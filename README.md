@@ -7,8 +7,6 @@
   - [Sign up for IBM account](#sign-up-for-ibm-account)
   - [Log In and Initialize Watson Language Translate Server](#log-in-and-initialize-watson-language-translate-server)
   - [Say hello in your favorite language using TJBot Simulator](#say-hello-in-your-favorite-language-using-tjbot-simulator)
-  - [Enter the raffle](#enter-the-raffle)
-- [svcc-ibm-2018](#svcc-ibm-2018)
 
 <!-- /TOC -->
 
@@ -52,10 +50,8 @@ Welcome ! Follow the steps below to win the IBM raffle at SVCC 2018. You `DO NOT
 
 ![IBM Sign up](assets/tjbot-3-translate-insert.jpg)
 6. Remove the username and password from the language_translator object. Uncomment the iam_apikey attribute and add `process.env.LANGUAGE_TRANSLATOR_USERNAME`. This is what the final code should look like:
->>>>>>> a359b0a28b6890e247772c325182964c3ecbee3d
 
-
-
+```
   var tj = new TJBot([], {}, {
     language_translator: {
       iam_apikey: process.env.LANGUAGE_TRANSLATOR_USERNAME
@@ -79,5 +75,3 @@ Check here for an [updated list](https://console.bluemix.net/docs/services/langu
 1. Take a screenshot and tweet with `@ibmcodesf` and `@sv_code_camp` and hastags `#chatbot` and `#svcc2018`.
 2. If you don't use twitter, just come by our booth and show us your final TJBot to enter the raffle.
 
-
-# svcc-ibm-2018
