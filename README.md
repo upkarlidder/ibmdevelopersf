@@ -42,7 +42,7 @@ Welcome ! Follow the steps below to win the IBM raffle at SVCC 2018. You `DO NOT
 
 3. Paste your `translator API key` in the .env tab. 
 
-![IBM Sign up](assets/tjbot-translator-key.jpg)
+![IBM Sign up](assets/tjbot-translator-key-2.jpg)
 4. Click on the `Docs` tab.
 
 ![IBM Sign up](assets/tjbot-2-translate-docs.jpg)
@@ -63,7 +63,7 @@ Welcome ! Follow the steps below to win the IBM raffle at SVCC 2018. You `DO NOT
   ```
   
 7. You can change `console.log(...)` to `alert(...)`.
-  ![IBM Sign up](assets/tjbot-4-final.jpg)
+  ![IBM Sign up](assets/tjbot-4-final-2.jpg)
 
 Note: The following languages are currently supported by Watson Lanuage Translation Service: 
 
