@@ -8,6 +8,7 @@
   - [Log In and Initialize Watson Language Translate Server](#log-in-and-initialize-watson-language-translate-server)
   - [Say hello in your favorite language using TJBot Simulator](#say-hello-in-your-favorite-language-using-tjbot-simulator)
   - [Enter the raffle](#enter-the-raffle)
+- [svcc-ibm-2018](#svcc-ibm-2018)
 
 <!-- /TOC -->
 
@@ -35,39 +36,45 @@ Welcome ! Follow the steps below to win the IBM raffle at SVCC 2018. You `DO NOT
 ![IBM Sign up](assets/ibm-translate-key.jpg)
 
 ## Say hello in your favorite language using TJBot Simulator
+
 1. Go to the [TJBot Simulator](https://my-tjbot.mybluemix.net/).
 
-![IBM Sign up](assets/tjbot-1.jpg)
+  ![IBM Sign up](assets/tjbot-1.jpg)
 2. Click the play button and the light on top of the bot should turn green.
-3. Click on the `Docs` tab.
 
-![IBM Sign up](assets/tjbot-2-translate-docs.jpg)
-4. Look for the `translate` section. Either copy paste the code or simply click on the code to copy in the editor.
+3. Paste your `translator API key` in the .env tab. 
 
-![IBM Sign up](assets/tjbot-3-translate-insert.jpg)
-5. Remove the username and password from the language_translator object. Uncomment the iam_apikey attribute and add `process.env.LANGUAGE_TRANSLATOR_USERNAME`. This is what the final code should look like:
+  ![IBM Sign up](assets/tjbot-translator-key.jpg)
+4. Click on the `Docs` tab.
 
-```
-var tj = new TJBot(["led"], {}, {});
-tj.shine("green");
+  ![IBM Sign up](assets/tjbot-2-translate-docs.jpg)
+5. Look for the `translate` section. Either copy paste the code or simply click on the code to copy in the editor.
+
+  ![IBM Sign up](assets/tjbot-3-translate-insert.jpg)
+6. Remove the username and password from the language_translator object. Uncomment the iam_apikey attribute and add `process.env.LANGUAGE_TRANSLATOR_USERNAME`. This is what the final code should look like:
+
+  ```
+  var tj = new TJBot(["led"], {}, {});
+  tj.shine("green");
 
 
 
-var tj = new TJBot([], {}, {
-  language_translator: {
-    iam_apikey: process.env.LANGUAGE_TRANSLATOR_USERNAME
-  }
-});
+  var tj = new TJBot([], {}, {
+    language_translator: {
+      iam_apikey: process.env.LANGUAGE_TRANSLATOR_USERNAME
+    }
+  });
 
-tj.translate("Hello", "en", "fr")
-  .then((response) => console.log(response.translations[0].translation));
-```
+  tj.translate("Hello", "en", "fr")
+    .then((response) => console.log(response.translations[0].translation));
+  ```
+
 7. You can change `console.log(...)` to `alert(...)`.
-![IBM Sign up](assets/tjbot-4-final.jpg)
+  ![IBM Sign up](assets/tjbot-4-final.jpg)
 
 Note: The following languages are currently supported by Watson Lanuage Translation Service: 
 
-![IBM Sign up](assets/ibm-translate-languages.jpg)
+  ![IBM Sign up](assets/ibm-translate-languages.jpg)
 
 Check here for an [updated list](https://console.bluemix.net/docs/services/language-translator/translation-models.html#translation-models).
 
