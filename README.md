@@ -49,12 +49,12 @@ Welcome ! Follow the steps below to win the IBM raffle at SVCC 2018. You `DO NOT
 5. Look for the `translate` section. Either copy paste the code or simply click on the code to copy in the editor.
 
 ![IBM Sign up](assets/tjbot-3-translate-insert.jpg)
-6. Remove the username and password from the language_translator object. Uncomment the iam_apikey attribute and add `process.env.LANGUAGE_TRANSLATOR_USERNAME`. This is what the final code should look like:
+6. Remove the username and password from the language_translator object. Uncomment the iam_apikey attribute and add `process.env.LANGUAGE_TRANSLATOR_API_KEY`. This is what the final code should look like:
 
 ```
   var tj = new TJBot([], {}, {
     language_translator: {
-      iam_apikey: process.env.LANGUAGE_TRANSLATOR_USERNAME
+      iam_apikey: process.env.LANGUAGE_TRANSLATOR_API_KEY
     }
   });
 
