@@ -42,7 +42,7 @@ Welcome ! Follow the steps below to win the IBM raffle at SVCC 2018. You `DO NOT
 
 3. Paste your `translator API key` in the .env tab. 
 
-![IBM Sign up](assets/tjbot-translator-key-2.jpg)
+![IBM Sign up](assets/tjbot-translator-key-3.jpg)
 4. Click on the `Docs` tab.
 
 ![IBM Sign up](assets/tjbot-2-translate-docs.jpg)
