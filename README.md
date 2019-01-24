@@ -33,6 +33,7 @@ Welcome ! Follow the steps below to win the IBM raffle at Forward JS 2019. You `
 
 ![IBM Sign up](assets/ibm-translate-key.jpg)
 
+If you ever have trouble accessing the dashboard, use this link: https://console.bluemix.net/dashboard/apps/
 ## Say hello in your favorite language using TJBot Simulator
 
 1. Go to the [TJBot Simulator](https://my-tjbot.mybluemix.net/).
