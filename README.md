@@ -13,7 +13,7 @@
 Welcome ! Follow the steps below to win the IBM raffle at SVCC 2018. You `DO NOT` need a credit card to complete this challenge. It should take you approximately `10 minutes` to complete the challenge. 
 
 ## Sign up for IBM account
-1. Go to [IBM Cloud Registration](https://console.bluemix.net/registration/) and enter the required information.
+1. Go to [IBM Cloud Registration](https://ibm.biz/BdYtWL) and enter the required information.
 
 ![IBM Sign up](assets/ibm-signup.jpg)
 2. You will receive a confirmation email. Click on `Confirm Account` to finish signing up for your IBM Cloud account
