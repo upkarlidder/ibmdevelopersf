@@ -1,4 +1,4 @@
-# Welcome to the IBM booth at Silicon Valley Code Camp Raffle
+# Welcome to the IBM booth at Forward JS
 
 
 <!-- TOC -->
