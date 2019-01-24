@@ -3,14 +3,14 @@
 
 <!-- TOC -->
 
-- [Welcome to the IBM booth at Silicon Valley Code Camp Raffle](#welcome-to-the-ibm-booth-at-silicon-valley-code-camp-raffle)
+- [Welcome to the IBM Developer booth at Forward JS](#welcome-to-the-ibm-booth-at-silicon-valley-code-camp-raffle)
   - [Sign up for IBM account](#sign-up-for-ibm-account)
   - [Log In and Initialize Watson Language Translate Server](#log-in-and-initialize-watson-language-translate-server)
   - [Say hello in your favorite language using TJBot Simulator](#say-hello-in-your-favorite-language-using-tjbot-simulator)
 
 <!-- /TOC -->
 
-Welcome ! Follow the steps below to win the IBM raffle at SVCC 2018. You `DO NOT` need a credit card to complete this challenge. It should take you approximately `10 minutes` to complete the challenge. 
+Welcome ! Follow the steps below to win the IBM raffle at Forward JS 2019. You `DO NOT` need a credit card to complete this challenge. It should take you approximately `10 minutes` to complete the challenge. 
 
 ## Sign up for IBM account
 1. Go to [IBM Cloud Registration](https://ibm.biz/BdYtWL) and enter the required information.
