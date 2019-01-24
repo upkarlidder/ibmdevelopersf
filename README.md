@@ -29,7 +29,7 @@ Welcome ! Follow the steps below to win the IBM raffle at Forward JS 2019. You `
 3. Choose the `Lite` plan and click create.
 
 ![IBM Sign up](assets/ibm-translate-initiate.jpg)
-4. Make an note of your `API key`. Or you can always come back to this page for it.
+4. Go to manage tab on the left.  Make a note of your `API key`. Or you can always come back to this page for it.
 
 ![IBM Sign up](assets/ibm-translate-key.jpg)
 
