@@ -1,19 +1,12 @@
-# Welcome to the IBM booth at Forward JS
+# Welcome to the IBM booth at Silicon Valley Code Camp Raffle
 
 
-<!-- TOC -->
+<!-- TOC -->autoauto- [Welcome to the IBM booth at Silicon Valley Code Camp Raffle](#welcome-to-the-ibm-booth-at-silicon-valley-code-camp-raffle)auto  - [Sign up for IBM account](#sign-up-for-ibm-account)auto  - [Log In and Initialize Watson Language Translate Server](#log-in-and-initialize-watson-language-translate-server)auto  - [Say hello in your favorite language using TJBot Simulator](#say-hello-in-your-favorite-language-using-tjbot-simulator)autoauto<!-- /TOC -->
 
-- [Welcome to the IBM Developer booth at Forward JS](#welcome-to-the-ibm-booth-at-silicon-valley-code-camp-raffle)
-  - [Sign up for IBM account](#sign-up-for-ibm-account)
-  - [Log In and Initialize Watson Language Translate Server](#log-in-and-initialize-watson-language-translate-server)
-  - [Say hello in your favorite language using TJBot Simulator](#say-hello-in-your-favorite-language-using-tjbot-simulator)
-
-<!-- /TOC -->
-
-Welcome ! Follow the steps below to win the IBM raffle at Forward JS 2019. You `DO NOT` need a credit card to complete this challenge. It should take you approximately `10 minutes` to complete the challenge. 
+Welcome ! Follow the steps below to win the IBM raffle at SVCC 2019. You `DO NOT` need a credit card to complete this challenge. It should take you approximately `10 minutes` to complete the challenge. 
 
 ## Sign up for IBM account
-1. Go to [IBM Cloud Registration](https://ibm.biz/BdYtWL) and enter the required information.
+1. Go to [IBM Cloud Registration - change LINK](https://console.bluemix.net/registration/) and enter the required information.
 
 ![IBM Sign up](assets/ibm-signup.jpg)
 2. You will receive a confirmation email. Click on `Confirm Account` to finish signing up for your IBM Cloud account
@@ -29,11 +22,10 @@ Welcome ! Follow the steps below to win the IBM raffle at Forward JS 2019. You `
 3. Choose the `Lite` plan and click create.
 
 ![IBM Sign up](assets/ibm-translate-initiate.jpg)
-4. Go to manage tab on the left.  Make a note of your `API key`. Or you can always come back to this page for it.
+4. Make an note of your `API key`. Or you can always come back to this page for it.
 
 ![IBM Sign up](assets/ibm-translate-key.jpg)
 
-If you ever have trouble accessing the dashboard, use this link: https://console.bluemix.net/dashboard/apps/
 ## Say hello in your favorite language using TJBot Simulator
 
 1. Go to the [TJBot Simulator](https://my-tjbot.mybluemix.net/).
@@ -73,6 +65,6 @@ Note: The following languages are currently supported by Watson Lanuage Translat
 Check here for an [updated list](https://console.bluemix.net/docs/services/language-translator/translation-models.html#translation-models).
 
 ## Enter the raffle
-1. Take a screenshot and tweet with `@ibmcodesf` and `@sv_code_camp` and hastags `#chatbot` and `#svcc2018`.
+1. Take a screenshot and tweet with `@IBMDeveloper` and `@sv_code_camp` and hastags `#watson-tjbot` and `#svcc2019`.
 2. If you don't use twitter, just come by our booth and show us your final TJBot to enter the raffle.
 
