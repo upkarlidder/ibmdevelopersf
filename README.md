@@ -9,7 +9,7 @@ Welcome ! Follow the steps below to win the IBM raffle at SVCC 2019. You `DO NOT
 
 ## Sign up for IBM account
 
-1. Go to [IBM Cloud Registration - change LINK](https://console.bluemix.net/registration/) and enter the required information.
+1. Go to [IBM Cloud Registration](https://ibm.biz/BdzvbK) and enter the required information.
 
 ![IBM Sign up](assets/ibm-signup.jpg)
 
