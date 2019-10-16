@@ -30,7 +30,7 @@ Welcome ! Follow the steps below to win the IBM raffle at SVCC 2019. You `DO NOT
 
 ![IBM Sign up](assets/ibm-translate-initiate.jpg)
 
-4. Make an note of your `API key`. Or you can always come back to this page for it.
+4. Make an note of your `API key` under the `Manage` section of the page. Or you can always come back to this page for it.
 
 ![IBM Sign up](assets/ibm-translate-key.jpg)
 
@@ -54,29 +54,17 @@ Welcome ! Follow the steps below to win the IBM raffle at SVCC 2019. You `DO NOT
 
 ![IBM Sign up](assets/tjbot-3-translate-insert.jpg)
 
-6. Remove the username and password from the language_translator object. Uncomment the iam_apikey attribute and add `process.env.LANGUAGE_TRANSLATOR_API_KEY`. This is what the final code should look like:
 
-```
-  var tj = new TJBot([], {}, {
-    language_translator: {
-      iam_apikey: process.env.LANGUAGE_TRANSLATOR_API_KEY
-    }
-  });
-
-  tj.translate("Hello", "en", "fr")
-    .then((response) => console.log(response.translations[0].translation));
-```
-
-7. You can change `console.log(...)` to `alert(...)`.
+6. That's it! Click on the play button and then head over to the `console` tab to see the result. You can also change `console.log(...)` to `alert(...)`.
    ![IBM Sign up](assets/tjbot-4-final-2.jpg)
 
 Note: The following languages are currently supported by Watson Lanuage Translation Service:
 
 ![IBM Sign up](assets/ibm-translate-languages.jpg)
 
-Check here for an [updated list](https://console.bluemix.net/docs/services/language-translator/translation-models.html#translation-models).
+Check here for an [updated list](https://cloud.ibm.com/docs/services/language-translator?topic=language-translator-translation-models#translation-models).
 
 ## Enter the raffle
 
-1. Take a screenshot and tweet with `@IBMDeveloper` and `@sv_code_camp` and hastags `#watson-tjbot` and `#svcc2019`.
-2. If you don't use twitter, just come by our booth and show us your final TJBot to enter the raffle.
+1. Take a screenshot and tweet with `@IBMDeveloper` and `@sv_code_camp` and hastags `#TJBot` and `#svcc2019`.
+2. If you don't use twitter, just come by our booth and show us your final TJBot output to enter the raffle.
