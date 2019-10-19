@@ -1,11 +1,11 @@
-# Welcome to the IBM booth at Silicon Valley Code Camp Raffle
+# Welcome to the IBM booth at Silicon Valley Code Camp Challenge
 
-1. [Welcome to the IBM booth at Silicon Valley Code Camp Raffle](#welcome-to-the-ibm-booth-at-silicon-valley-code-camp-raffle)
+1. [Welcome to the IBM booth at Silicon Valley Code Camp Challenge](#welcome-to-the-ibm-booth-at-silicon-valley-code-camp-challenge)
 2. [Sign up for IBM account](#sign-up-for-ibm-account)
 3. [Log In and Initialize Watson Language Translate Server](#log-in-and-initialize-watson-language-translate-server)
 4. [Say hello in your favorite language using TJBot Simulator](#say-hello-in-your-favorite-language-using-tjbot-simulator)
 
-Welcome ! Follow the steps below to win the IBM raffle at SVCC 2019. You `DO NOT` need a credit card to complete this challenge. It should take you approximately `10 minutes` to complete the challenge.
+Welcome ! Follow the steps below to win the IBM challenge at SVCC 2019. You `DO NOT` need a credit card to complete this challenge. It should take you approximately `10 minutes` to complete the challenge.
 
 ## Sign up for IBM account
 
@@ -64,7 +64,7 @@ Note: The following languages are currently supported by Watson Lanuage Translat
 
 Check here for an [updated list](https://cloud.ibm.com/docs/services/language-translator?topic=language-translator-translation-models#translation-models).
 
-## Enter the raffle
+## Enter the challenge
 
 1. Take a screenshot and tweet with `@IBMDeveloper` and `@sv_code_camp` and hastags `#TJBot` and `#svcc2019`.
-2. If you don't use twitter, just come by our booth and show us your final TJBot output to enter the raffle.
+2. If you don't use twitter, just come by our booth and show us your final TJBot output to finish the challenge.
